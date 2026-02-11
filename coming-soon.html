@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon — DownloadEat.com</title>
+  <meta name="description" content="This page is coming soon. DownloadEat.com is building the world's most complete guide to food delivery apps in every country.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://downloadeat.com/coming-soon.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍜</text></svg>">
+  <style>
+    .coming-soon__particles {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .particle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.15;
+      animation: particleFloat 20s linear infinite;
+    }
+    .particle:nth-child(1) {
+      width: 300px; height: 300px;
+      background: var(--teal);
+      top: -10%; left: -5%;
+      animation-duration: 25s;
+    }
+    .particle:nth-child(2) {
+      width: 200px; height: 200px;
+      background: var(--coral);
+      top: 60%; right: -5%;
+      animation-duration: 30s;
+      animation-delay: -5s;
+    }
+    .particle:nth-child(3) {
+      width: 150px; height: 150px;
+      background: var(--gold);
+      bottom: -5%; left: 30%;
+      animation-duration: 22s;
+      animation-delay: -10s;
+    }
+    .particle:nth-child(4) {
+      width: 100px; height: 100px;
+      background: var(--purple);
+      top: 20%; right: 20%;
+      animation-duration: 18s;
+      animation-delay: -3s;
+    }
+    @keyframes particleFloat {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(30px, -50px) rotate(90deg); }
+      50% { transform: translate(-20px, 20px) rotate(180deg); }
+      75% { transform: translate(40px, 40px) rotate(270deg); }
+      100% { transform: translate(0, 0) rotate(360deg); }
+    }
+    .coming-soon__globe {
+      font-size: clamp(4rem, 10vw, 8rem);
+      margin-bottom: var(--space-xl);
+      display: block;
+      animation: float 4s ease-in-out infinite;
+    }
+    .coming-soon__features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-md);
+      margin: var(--space-2xl) 0;
+      text-align: left;
+    }
+    .coming-soon__feature {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .coming-soon__feature-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .coming-soon__feature-text {
+      color: var(--gray-300);
+      font-size: 0.95rem;
+    }
+    .coming-soon__feature-text strong {
+      color: var(--white);
+    }
+    .coming-soon__links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--space-md);
+      margin-top: var(--space-xl);
+    }
+    .coming-soon__divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--blue));
+      border-radius: 3px;
+      margin: 0 auto var(--space-lg);
+    }
+    @media (min-width: 480px) {
+      .coming-soon__features {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="site-logo">Download<span>Eat</span></a>
+      <nav class="nav-desktop">
+        <a href="/#countries">Countries</a>
+        <a href="/#cities">Cities</a>
+        <a href="/#topics">Topics</a>
+        <a href="/topics/payability-score.html">Payability Score</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu">
+    <a href="/">Home</a>
+    <a href="/#countries">Countries</a>
+    <a href="/#cities">Cities</a>
+    <a href="/#topics">Topics</a>
+    <a href="/topics/payability-score.html">Payability Score</a>
+  </nav>
+
+  <!-- Coming Soon -->
+  <div class="coming-soon">
+    <div class="coming-soon__particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
+    <div class="hero__grid-lines"></div>
+
+    <div class="coming-soon__content">
+      <span class="coming-soon__globe" aria-hidden="true">🌍</span>
+
+      <h1>This Page Is <span class="highlight">Coming Soon</span></h1>
+
+      <div class="coming-soon__divider"></div>
+
+      <p>We're building the world's most complete guide to food delivery apps in every country. This page will be packed with real data, tourist-tested tips, and everything you need to order food anywhere on Earth.</p>
+
+      <div class="coming-soon__features">
+        <div class="coming-soon__feature">
+          <span class="coming-soon__feature-icon">🍜</span>
+          <span class="coming-soon__feature-text"><strong>Real app data</strong> for every country</span>
+        </div>
+        <div class="coming-soon__feature">
+          <span class="coming-soon__feature-icon">💳</span>
+          <span class="coming-soon__feature-text"><strong>Payment reality checks</strong> for tourists</span>
+        </div>
+        <div class="coming-soon__feature">
+          <span class="coming-soon__feature-icon">📱</span>
+          <span class="coming-soon__feature-text"><strong>Phone &amp; SIM</strong> requirements</span>
+        </div>
+        <div class="coming-soon__feature">
+          <span class="coming-soon__feature-icon">🌏</span>
+          <span class="coming-soon__feature-text"><strong>40+ countries</strong> covered</span>
+        </div>
+        <div class="coming-soon__feature">
+          <span class="coming-soon__feature-icon">⭐</span>
+          <span class="coming-soon__feature-text"><strong>Payability Scores</strong> for every app</span>
+        </div>
+        <div class="coming-soon__feature">
+          <span class="coming-soon__feature-icon">🏨</span>
+          <span class="coming-soon__feature-text"><strong>Hotel delivery</strong> tips &amp; rules</span>
+        </div>
+      </div>
+
+      <div class="coming-soon__links">
+        <a href="/" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/></svg>
+          Back to Home
+        </a>
+        <a href="/#countries" class="btn btn--secondary btn--lg">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="8"/><path d="M2 10h16M10 2a14.5 14.5 0 014 8 14.5 14.5 0 01-4 8 14.5 14.5 0 01-4-8 14.5 14.5 0 014-8z"/></svg>
+          Explore Countries
+        </a>
+      </div>
+
+      <p style="margin-top: 3rem; font-size: 0.85rem; color: var(--gray-400);">
+        Meanwhile, check out our country guides that are already live.<br>
+        New pages are added regularly.
+      </p>
+    </div>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
